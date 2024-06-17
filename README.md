@@ -1,9 +1,8 @@
-# DevPortfolio2k24 ([LIVE](https://davecarrijo.github.io/davecarrijo.io_Portfolio/))
+# React + Vite
 
-[vercel](https://davecarrijo-io.vercel.app/)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This gonna be my first real portfólio, where I will implement with all the technologies that I Learn in those years, back them I was bad at coding, but now... NOW I'm still bad at it, but WITH STYLE. :>
+Currently, two official plugins are available:
 
-WIP:
-https://davecarrijo.github.io/davecarrijo.io_Portfolio/
-![1696606609353](image/README/1696606609353.png)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

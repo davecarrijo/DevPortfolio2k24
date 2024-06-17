@@ -1,0 +1,24 @@
+.Toggle_theme {
+  margin-left: 1em;
+}
+
+.Timeline_Container {
+  margin-top: 10em;
+  margin-bottom: 10em;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Burguer_Menu {
+  margin-left: 1em;
+  position: relative;
+}
+.Nav_Burguer {
+  /* position: absolute; */
+}
+
+@media only screen and (min-width: 1000px) {
+  .Nav_Burguer {
+    display: none;
+  }
+}
