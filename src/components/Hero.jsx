@@ -51,7 +51,7 @@ export class Hero extends Component {
                         <HoverCard.Arrow>
                           <HoverCard.ArrowTip />
                         </HoverCard.Arrow>
-                        <div className='h-auto text-[2px]  p-2 rounded thin bg-black'>
+                        <div className='h-auto text-[2px]  p-2 rounded thin bg-base-300``` light:text-white'>
                           A awkward person, that like to <br></br>to read
                           HP.Lovecraft.🪐
                           <br></br>
