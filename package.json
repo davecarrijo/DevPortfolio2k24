@@ -1,7 +1,7 @@
 {
   "homepage": "https://davecarrijo.github.io/Land_Page_Portfolio/",
   "name": "react-app",
-  "private": "false",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "license": "MIT",
