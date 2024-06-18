@@ -1,28 +1,30 @@
-// React imports
-import React from "react";
-// Styles imports
-import "./index.css";
-import "./App.css";
-// Components Imports
-import Nav from "./components/Nav";
+import styled from "styled-components";
+import Contact from "./components/Contact";
 import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import Timeline from "./components/Timeline";
-import Footer from "./components/Footer";
-import Nav_Mobile from "./components/Nav_Mobile";
+import Who from "./components/Who";
+import Works from "./components/Works";
+
+const Container = styled.div`
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  scrollbar-width: none;
+  color: white;
+  background: url("./");
+  &::-webkit-scrollbar {
+    display: none;
+  }
+`;
 
 function App() {
   return (
-    <div className='App'>
-      <div className='md:container md:mx-auto px-20'>
-        <Nav_Mobile />
-        <Nav />
-        <Hero />
-        <Projects />
-        <Timeline />
-        <Footer />
-      </div>
-    </div>
+    <Container>
+      <Hero />
+      <Who />
+      <Works />
+      <Contact />
+    </Container>
   );
 }
 
